@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+</head>
+<style>
+	.centerdiv{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		height: 100vh;
+		flex-direction: column;
+	}
+
+</style>
+<body>
+<div class="centerdiv">
+	<h2>hello</h2>
+	<h1>Simple calculator</h1>
+	<br>
+	<form method="post">
+		<input type="text" name="v1">
+		<input type="text" name="v2">
+		<br>
+		<button type="submit">claculator</button>
+	</form>
+	<script type="text/javascript">
+		const button = document.querySelector('button');
+		const htag = document.querySelector('h2');
+
+
+		const funbtn = () =>{
+			var c = v1;
+			htag.innerHTML= c;
+
+		}
+		button.addEventListener('click', funbtn)
+	</script>
+	
+</div>
+</body>
+</html>

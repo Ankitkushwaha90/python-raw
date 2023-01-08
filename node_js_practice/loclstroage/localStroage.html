@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>localstorage</title>
+</head>
+<body>
+	<button onclick="Speaker()">on click </button>
+	<h1>Local Storage</h1>
+
+
+
+	<script>
+
+		var lister = {
+			myname: "ankit",
+			age: 17,
+			tell: "Awesome",
+			funname(){
+				console.log(this.lister);
+			}
+		}
+		lister.funname(); 
+		
+		window.localStorage.setItem('username', 'geekyshows');
+		window.localStorage.setItem('ankitkushwaha99999', 'ankitkushwaha99999@gmail.com');
+		window.localStorage.setItem('ankitkushwaha99109', 'ankitkushwaha99109@gmail.com');
+
+		console.log(localStorage);
+
+		var listf = JSON.stringify(localStorage);
+
+		document.write(listf.username());
+
+		function Speaker() {
+			var myobj = new Object()
+			myobj.name = "Fred";
+
+			this.speak = function() {
+				window.alert('hello', + this.name);
+			}
+		}
+	</script>
+</body>
+</html>

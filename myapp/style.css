@@ -1,0 +1,142 @@
+.box1{
+	height: 200px;
+	width: auto;
+	background: none;
+}
+.min1{
+	height: 30px;
+	width: auto;
+	background: none;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo h1{
+	position: absolute;
+	color: white;
+	padding-left: 10px;
+	text-shadow: 5spx solid black;
+}
+
+nav{
+	width: auto;
+	height: 45px;
+	background: #113e31;
+}
+
+nav ul{
+	padding-right: 40px;
+}
+nav ul li{
+	float: right;
+	display: inline-block;
+	padding: 10px 20px 10px;
+
+}
+nav ul li a {
+	font-size: 19px;
+	color: white;
+	text-decoration-style: none;
+	text-decoration-line: none;
+}
+nav ul li a:hover{
+	font-size: 19px;
+	color: green;
+	text-decoration-style: none;
+	text-decoration-line: none;
+}
+.active a{
+	color: #60ff00;
+}
+.main{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 180px 940px 206px ;
+	grid-gap: 10px;
+}
+.div1{
+	background: #14c08d21;
+	grid-column: 1/2;
+}
+button{
+	width: 180px;
+	height: 25px;
+	border:none;
+	
+}button a{
+	text-decoration-line: none;
+	color: green;
+	font-size: 17px;
+}
+.active1{
+	width: 180px;
+	height: 25px;
+	background: #4ddea8e8;
+}
+
+.active1 a{
+	text-decoration-line: none;
+	color: white;
+	font-size: 17px;
+}
+button:hover{
+	width: 180px;
+	height: 25px;
+	background: #4ddea8e8;
+}button a :hover{
+	text-decoration-line: none;
+	color: white;
+	font-size: 17px;
+}
+
+.div2{
+	grid-column: 2/3;
+	background: ;
+}
+.line{
+	width: auto;
+	height: 3px;
+	margin: 10px;
+	background:  #14c08de6;
+}
+.container1 h1{
+	margin: 40px;
+	width: 800px;
+	height: 400px;
+	overflow: auto;
+	background: #1d916f47;
+}
+.footer{
+	display: grid;
+	margin: 0px;
+	padding: 0px;
+	background: black;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footerul{
+	margin-left-right: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+.footerul li{
+	margin: 10px;
+	text-align: center;
+}
+.footerul li a{
+	margin: 10px;
+	text-decoration-line: none;
+	color: white;
+}
+.footerul li a:hover{
+	margin: 10px;
+	text-decoration-line: none;
+	color: #14c08de6;
+}
+
+.div3{
+	background: ;
+	grid-column: 3/4;
+}
